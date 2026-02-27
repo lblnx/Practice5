@@ -49,5 +49,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy dist/Practice5/index.js --name practice5.pabloquint-2002.workers.dev --compatibility-date 2026-02-26 --compatibility-flags nodejs_compat  --assets dist/client
+          command: deploy dist/Practice5/index.js --name practice5 --compatibility-date 2026-02-26 --compatibility-flags nodejs_compat  --assets dist/client
           
