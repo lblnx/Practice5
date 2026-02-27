@@ -39,7 +39,7 @@ jobs:
 
     steps:
       - name: Download artifacts
-        uses: actions/download-paged-artifact@v4
+        uses: actions/download-pages-artifact@v4
         with:
           name: dist
           path: dist/
